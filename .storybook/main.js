@@ -1,3 +1,4 @@
+import 'tailwindcss/tailwind.css'
 /** @type { import('@storybook/react-vite').StorybookConfig } */
 const config = {
   stories: ['../src/components/**/*.stories.@(js|jsx)'],

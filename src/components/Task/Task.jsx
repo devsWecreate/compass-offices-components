@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 export default function Task({ task: { id, title, state }, onArchiveTask, onPinTask }) {
   return (
-    <div className={`list-item ${state}`}>
+    <div className={`list-item ${state} bg-orange-800`}>
       <label
         htmlFor="checked"
         aria-label={`archiveTask-${id}`}
