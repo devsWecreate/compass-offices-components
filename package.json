@@ -23,8 +23,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "init-msw": "msw init public/",
-    "build-static-webapp":"expo build:web"
+    "init-msw": "msw init public/"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^7.0.18",
