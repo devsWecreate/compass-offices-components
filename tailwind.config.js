@@ -29,6 +29,7 @@ module.exports = {
         secondary: {
           DEFAULT: '#F58220',
           text: '#FFFFFF',
+          lightest: 'rgba(245, 130, 32, 0.15)',
         },
         text: {
           DEFAULT: '#424242',

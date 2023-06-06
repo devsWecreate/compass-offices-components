@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="bg-orange-200 font-bold p-4">Vite + React + Tailwind</h1>
+      <span class="material-symbols-outlined">home</span>
       <Button 
         label="Click me"
       />
