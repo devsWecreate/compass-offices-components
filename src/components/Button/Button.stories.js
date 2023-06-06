@@ -15,7 +15,7 @@ export const Primary = {
   args: {
     primary: true,
     label: 'Button',
-    backgroundColor: 'bg-primary text-white',
+    backgroundColor: 'bg-secondary text-white',
   },
 };
 

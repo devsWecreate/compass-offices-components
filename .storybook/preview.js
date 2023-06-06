@@ -1,4 +1,5 @@
 import '../src/index.css';
+import { GoogleFontLoader } from 'react-google-font-loader';
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {
@@ -12,5 +13,6 @@ const preview = {
     },
   },
 };
+
 
 export default preview;

@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './button.css';
 
 /**
  * Primary UI component for user interaction
@@ -11,7 +10,7 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
   return (
     <button
       type="button"
-      className={['storybook-button type-bold', `storybook-button--${size}`, classBg, mode].join(' ')}
+      className={['w-full', `h-[${size}] text-white`, classBg, mode].join(' ')}
       {...props}
     >
       {label}
@@ -45,6 +44,6 @@ Button.propTypes = {
 Button.defaultProps = {
   backgroundColor: 'bg-primary text-white',
   primary: false,
-  size: 'medium',
+  size: '47px',
   onClick: undefined,
 };

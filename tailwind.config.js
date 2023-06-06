@@ -34,8 +34,8 @@ module.exports = {
         text: {
           DEFAULT: '#424242',
           dark: '#000000',
+          light: '#7B7B7B',
           lightest: '#DCDCDC',
-          primary: '#454545',
         },
         muted: {
           DEFAULT: '#7B7B7B',
