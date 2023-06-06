@@ -5,6 +5,20 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
+    fontFamily: {
+      'optima': ['Optima', 'serif'],
+      'optimaItalic': ['Optima italic', ' serif'],
+      'optimaMedium': ['Optima medium', ' serif'],
+      'optimaBold': ['Optima bold', ' serif'],
+      'inter': ['Inter', 'sans-serif'],
+      'interMedium': ['Inter medium', 'sans-serif'],
+    },
     extend: {
       colors: {
         primary: {
@@ -18,6 +32,7 @@ module.exports = {
         },
         text: {
           DEFAULT: '#424242',
+          dark: '#000000',
           lightest: '#DCDCDC',
           primary: '#454545',
         },
@@ -32,11 +47,7 @@ module.exports = {
   plugins: [],
   safelist: [
     {
-      pattern: /(bg|text|border)-(rose|primary|secondary|muted|text|border)-(lightest)/,
-      variants: ['hover'],
-    },
-    {
-      pattern: /(bg|text|border)-chart(One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven)/,
+      pattern: /(bg|text|border)-(primary|secondary|muted|text|border)-(lightest|light|dark)/,
       variants: ['hover'],
     },
   ],

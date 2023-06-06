@@ -6,7 +6,7 @@ export default {
   component: Button,
   tags: ['autodocs'],
   argTypes: {
-    backgroundColor: { control: 'color' },
+    backgroundColor: 'bg-primary text-white',
   },
 };
 
@@ -15,12 +15,14 @@ export const Primary = {
   args: {
     primary: true,
     label: 'Button',
+    backgroundColor: 'bg-primary text-white',
   },
 };
 
 export const Secondary = {
   args: {
     label: 'Button',
+    backgroundColor: 'bg-secondary text-white',
   },
 };
 
